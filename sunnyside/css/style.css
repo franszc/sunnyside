@@ -1,0 +1,19 @@
+/* Utilidades */
+@import "./utilidades/cores.css";
+
+/* Global */
+@import "./global/header-menu.css";
+@import "./global/header.css";
+
+/* Article */
+@import "./article/article.css";
+@import "./article/article-duo.css";
+
+/* Aside */
+@import "./aside/aside.css";
+
+/* Footer */
+@import "./footer/footer.css";
+
+/* Mobile */
+@import "./mobile/mobile.css";

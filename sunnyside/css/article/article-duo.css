@@ -1,0 +1,88 @@
+.article-duo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cereja, .tangerina {
+    display: grid;
+}
+
+.cereja img {
+    grid-area: 1/1;
+}
+
+.tangerina img {
+    grid-area: 1/1;
+}
+
+.cereja-text, 
+.tangerina-text {
+    display: grid;
+    text-align: center;
+    grid-area: 1/1; 
+    gap: 10px; 
+    align-content: end;
+    margin-bottom: 20px;
+    padding: 0px 80px 0px 80px;
+}
+
+.cereja-text h1 {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    color: var(--cor-v1);
+    font-size: 35px;
+}
+
+.cereja-text p {
+  font-size: 18px;
+  font-family: 'Barlow';
+  color: var(--cor-v1);
+  line-height: 32px;
+  font-weight: 600;
+  margin: 0px
+}
+
+
+.tangerina-text h1 {
+   font-family: 'Fraunces';
+   font-weight: 900;
+   color: var(--cor-a1);
+   font-size: 35px;
+}
+
+.tangerina-text p {
+    font-size: 18px;
+    font-family: 'Barlow';
+    color: var(--cor-a1);
+    line-height: 32px;
+    font-weight: 600;
+    margin: 0px
+}
+
+@media (max-width: 800px) {
+  .article-duo {
+    display: flex;
+    flex-direction: column;
+ }
+}
+
+@media (max-width: 500px) {
+  .cereja-text h1 {
+    font-size: 25px;
+ }
+        
+ .cereja-text p {
+    font-size: 15px; 
+    margin-top: 20px;
+ }
+        
+        
+ .tangerina-text h1 {
+   font-size: 25px;
+ }
+        
+ .tangerina-text p {
+   font-size: 15px;
+   margin-top: 20px;
+ }
+} 

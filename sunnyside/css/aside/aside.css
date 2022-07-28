@@ -1,0 +1,94 @@
+.depoimento {
+    margin-top: 100px;
+}
+
+.depoimento h1 {
+    text-align: center;
+    color: var(--cor-a5);
+    font-size: 20px;
+    font-family: 'Fraunces';
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-bottom: 100px;
+}
+
+.depoimento-cliente {
+    display: flex;
+    align-items: baseline;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.depoimento-cliente li {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.depoimento-cliente img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+ .depoimento-cliente li {
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.depoimento-cliente li:nth-child(2) {
+    text-align: center;
+    font-family: 'Barlow';
+    font-weight: 600;
+    color: var(--cor-a3);
+}
+
+.depoimento-cliente li:nth-child(2) {
+    margin-top: 60px;
+}
+
+.depoimento-cliente li:nth-child(3) {
+    text-align: center;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    color: #000000;
+    margin-top: 50px;
+}
+
+.depoimento-cliente li:nth-child(4) {
+    text-align: center;
+    font-family: 'Barlow';
+    font-weight: 600;
+    color: var(--cor-a5);
+    margin-top: 10px;
+}
+
+.food {
+    display: flex;
+    margin-top: 150px;
+}
+
+.food img {
+    max-width: 25%;
+}
+
+@media (max-width: 800px) {
+    .depoimento-cliente {
+        flex-direction: column;
+    }
+
+    .food {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .food img {
+        max-width: 100%;
+    }
+
+}
+
+
+
